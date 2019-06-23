@@ -83,7 +83,7 @@
 									<div class="ex1"><p style ="color: black";>
  									
 Prior to arriving in India (or at least our sessions), please watch the following videos in preparation for our discussions. There is no specific assignment for these videos. They provide background material and frameworks that will prove useful as we begin our discussions.   
-<br> </br><img src="images/businessopspic2.png" width="650px;" height="350px;"  />
+<img style="padding-bottom: 5px;" src="images/businessopspic2.png" width="650px;" height="350px;"  />
 
  </p> </div>
  
@@ -161,9 +161,22 @@ Prior to arriving in India (or at least our sessions), please watch the followin
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<script>	if (top.location!= self.location) {
-   top.location = self.location.href; </script>
-   
+		
+
+<!-- <script>	if (top.location!= self.location) {
+   top.location = self.location.href; </script> -->
+
+<script type="text/javascript"> // if site open in iframe then redirect to main site
+      
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  $(function(){
+ if(window.top.location != window.self.location)
+             {
+                top.window.location.href = window.self.location;
+             }
+        });
+}
+</script>
 
 
 
